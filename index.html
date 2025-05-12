@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Smythe&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <h1>Jimmy's Diner</h1>
+            <h2>The best burgers and pizzas in town.</h2>
+        </header>
+        <main>
+            <section class="menu-items-container" id='menu-items-container'>
+                
+            </section>
+            <section class="order-section" id='order-section'>
+                
+            </section>
+            <div class="modal" id="modal">
+                <form id="pay-detail-form">
+                    <p class="form-header">Enter card details</p>
+                    <input 
+                        type="text"
+                        name="fullName"
+                        placeholder="Enter your name"
+                        pattern="/[a-zA-Z-]+/"
+                    >
+                    <input 
+                        type="text"
+                        name="cardNumber"
+                        pattern="\d{8}"
+                        placeholder="Enter card number"
+                        title="must be a 8 digit number"
+                    >
+                    <input 
+                        type="text"
+                        name="securityCode"
+                        placeholder="Enter CVV"
+                        pattern="\d{3}"
+                        title="must be a 3 digit number"
+                    >
+                    <button class="submit-btn pay">Pay</button>  
+                </form>
+            </div>
+        </main>
+        
+	<script src="index.js" type='module'></script>
+    </body>
+</html>
+
