@@ -1,19 +1,28 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Restaurant Ordering App
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Solo project from the essential javascript concepts course on [Scrimba](https://scrimba.com/home)
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Link
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+[Project Url](sprightly-chaja-b88f3a.netlify.app) (hosted on netlify)
 
-Happy Coding!
+## Project Requirements
+
+Users should be able to:
+
+- Add or remove items to/from the cart
+- See the current total of their cart
+- Fill in a form to pay for the item
+- See a personalised message with their name after submitting the form
+
+## Experience Gained
+
+- Developed a restaurant ordering web application using HTML, CSS and Javascript
+- Implemented cart functionality to add, update and remove menu items dynamically
+- Integrated form validation for customer details and order submissions using Javascript
+- Applied modular javascript structure for maintainability and code reusability
+- Utilised CSS Flexbox for layout design and visually appealing presentation
+
+## Author
+
+Nicholas Carrasco
